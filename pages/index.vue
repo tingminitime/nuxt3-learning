@@ -1,9 +1,15 @@
 <script setup></script>
 
 <template>
-  <h2>Home</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, facilis!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, facilis!</p>
+  <div class="">
+    <h2>Home</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, facilis!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, facilis!
+    </p>
+  </div>
 </template>
 
 <style scoped>
