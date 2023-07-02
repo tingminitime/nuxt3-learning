@@ -1,4 +1,12 @@
-<script setup></script>
+<script setup>
+// const { data } = await useFetch('/api/ninja?name=mario', {
+//   method: 'POST',
+//   body: { age: 30 },
+// })
+
+// const { data } = await useFetch('/api/ninja')
+const { data } = await useFetch('/api/currency/TWD')
+</script>
 
 <template>
   <div>
@@ -9,6 +17,7 @@
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, facilis!
     </p>
+    <pre>{{ data }}</pre>
   </div>
 </template>
 

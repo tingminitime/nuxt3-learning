@@ -9,4 +9,16 @@ declare module 'products-types' {
   }
 
   type Products = Product[]
+
+  type CurrencyData = {
+    meta: {
+      last_updated_at: string
+    }
+    data: {
+      [key: string]: {
+        code: string
+        value: number
+      }
+    }
+  }
 }

@@ -20,4 +20,7 @@ export default defineNuxtConfig({
     },
   },
   css: ['@/assets/css/tailwind.css'],
+  runtimeConfig: {
+    currencyApiKey: process.env.CURRENCYAPI_API_KEY,
+  },
 })
